@@ -21,6 +21,7 @@ NPVCalculator.Web is an MVC ajax that calls the API to compute for Net Present V
 ## How do I set up?
 
 * Clone this repo.
+* Open with Visual Studio 2017 or Visual Studio Code.
 * Change local configurations that may need changed for your environment.
 * Check CORS access.
-
+* No need to run migrations manually. Migrations will run when NPVCalculator.Api project is executed.
