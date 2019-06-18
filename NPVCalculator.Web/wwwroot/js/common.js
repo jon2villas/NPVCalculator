@@ -75,3 +75,7 @@ function removeClass(el, className) {
       el.className = el.className.replace(reg, ' ');
   }
 }
+
+function isEmpty(str) {
+    return str.replace(/\s/g, '') === '';
+}
